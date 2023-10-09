@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(217, 54%, 11%);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+main {
+	height: 600px;
+	width: 350px;
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 15px;
+	padding: 20px 20px 20px;
+	box-shadow: 0px 20px 30px 5px rgba(0, 8, 14, 0.725);
+}
+
+
+.card > img {
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	color:hsl(0, 0%, 100%);
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+p {
+	color: hsl(215, 51%, 70%);
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.desc {
+	display: flex;
+	justify-content: space-between;
+}
+
+.price {
+	display: flex;
+	gap: 5px;
+}
+.price p {
+	color: hsl(178, 100%, 50%);
+}
+
+.data {
+	display: flex;
+	gap: 5px;
+}
+
+.line {
+	width: 310px;
+	border-top: 0.1px solid hsl(215, 32%, 27%);
+	margin-bottom: 20px;
+}
+
+.auth {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	text-align:center
+}
+.name {
+	color: aliceblue;
+	cursor:pointer
+}
+.name:hover {
+	color: hsl(178, 100%, 50%);
+}
+span {
+	color:hsl(215, 51%, 70%)
+}
+.auth img {
+	border-radius: 50%;
+	border: 1px solid #ffff;
+}
+
+h1:hover {
+	color: hsl(178, 100%, 50%);
+}
